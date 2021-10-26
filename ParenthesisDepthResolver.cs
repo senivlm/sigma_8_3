@@ -6,7 +6,7 @@ using System.IO;
 namespace sigma_8_3
 {
     class ParenthesisDepthResolver : IParenthesisDepthResolver
-    {
+    {Умова задачі передбачає, що у стрічці файлу може бути кілька речень, а також речення може бути в кількох стрічках. Ця задача значно складніша, ніж та, яку Ви реалізовували
         private List<string> _sentences = new List<string>();
         private List<int> _parenthesisCounters = new List<int>();
 
